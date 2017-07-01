@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="pokemon" tilewidth="16" tileheight="16" tilecount="104">
+  <image source="sheet.png" width="128" height="208"/>
+  <tile id="56">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1M9Kw0AQx/G0oNKC9GCtQot4Kig0fQLRS/WiPZWe1Pd/DCeHwDLsn9llEn8Jc/ge2qbNfDJLP6uq+hp4R+pE7ZWrO/jNWGdlR+2E5ngeiWMs+3BnzHH0aZE6pHOhOG6oB9bSmSk2Gzf0aWkd7T3X1Ja1UXBIvq/piMXn4P9jkn0gOHyzPRU4urBIHalnWldhD6qDn3d+DbIj57yhOEL3e6F2gWIO367+Yx/t/SWO1LmUOC6oS9ZVpiN0BmKGVK+JPfOuPe8tFBypXUgcOWeqcTw6r98yHL7PNAzuPnIcpfuIXaPhcJ+N1OHuZMgO7X0cqPdAfGbfNR+C2UOOe0VHLD5z6e/0sY++u6VWrLsBOkoyB1bmwMocWJmjrAk1HYFjRs1H4Ogqc2BlDqzMgZU5sDIHVubAyhxYNY5v6mfg/VJ/8mbj9A==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+ <layer name="collision" width="50" height="50" opacity="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEJADEMALGslf0X+wm+CQTOQQeujRoX3mut/chMj6MVR6tXHVPv2auOqXG04mjFca+T289xL45WHK04Wr3iOImjFUcrjlYcrX0crThacbTiaMXRiqMVRyuOVn+/u4nzAV8HOzs=
+  </data>
+ </layer>
+</map>
